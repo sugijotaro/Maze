@@ -197,7 +197,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 92cd604f74f9643b6a6b520b6fb86462, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -565,10 +565,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4288307630021869417, guid: 9406e3b04550143f9bd120e3451fdee8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 84a57fe408471442aabbd9607ea2b33c, type: 3}
     - target: {fileID: 4288307630914229680, guid: 9406e3b04550143f9bd120e3451fdee8, type: 3}
       propertyPath: m_Text
       value: "\u304B\u3064\u3066\u6804\u5149\u306B\u6E80\u3061\u305F\u5192\u967A\u738B\u56FD\u3002\u4E3B\u4EBA\u516C\u306F\u3053\u306E\u738B\u56FD\u306E4\u3064\u306E\u4F1D\u8AAC\u306E\u79D8\u5B9D\u3092\u6C42\u3081\u3066\u5927\u8FF7\u8DEF\u306B\u6311\u3080\u3002\u8FF7\u8DEF\u306E\u4E2D\u306B\u306F\u4ED5\u639B\u3051\u3084\u52D5\u7269\u305F\u3061\u304C\u5F85\u3061\u69CB\u3048\u3001\u89E3\u304D\u660E\u304B\u3057\u306A\u304C\u3089\u79D8\u5B9D\u3092\u63A2\u3059\u3002\u5168\u3066\u306E\u79D8\u5B9D\u3092\u624B\u306B\u5165\u308C\u308B\u3068\u3001\u5927\u304D\u306A\u30C9\u30A2\u304C\u958B\u304D\u3001\u5F37\u5927\u306A\u5B88\u8B77\u8005\u304C\u73FE\u308C\u308B\u3002\u4E3B\u4EBA\u516C\u306F\u5B88\u8B77\u8005\u306B\u7ACB\u3061\u5411\u304B\u3044\u3001\u738B\u56FD\u3092\u5143\u306E\u6804\u5149\u306B\u623B\u3059\u305F\u3081\u306B\u6311\u6226\u3059\u308B\u3002\u6210\u529F\u3059\u308C\u3070\u738B\u56FD\u306F\u518D\u3073\u8F1D\u304D\u3001\u5931\u6557\u3059\u308C\u3070\u518D\u3073\u8FF7\u8DEF\u3078\u3002\u4E3B\u4EBA\u516C\u306E\u5192\u967A\u304C\u4ECA\u3001\u59CB\u307E\u308B\u3002"
       objectReference: {fileID: 0}
+    - target: {fileID: 4288307630914229680, guid: 9406e3b04550143f9bd120e3451fdee8, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 92cd604f74f9643b6a6b520b6fb86462, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9406e3b04550143f9bd120e3451fdee8, type: 3}
 --- !u!224 &716274235 stripped
@@ -671,10 +679,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: StartButton
       objectReference: {fileID: 0}
+    - target: {fileID: 8829683561346813977, guid: 0852a9ab943ba4026b94abd3eda143d8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ca73e803000c94994888aec71a748c19, type: 3}
     - target: {fileID: 8829683561749038029, guid: 0852a9ab943ba4026b94abd3eda143d8, type: 3}
       propertyPath: m_Text
       value: START
       objectReference: {fileID: 0}
+    - target: {fileID: 8829683561749038029, guid: 0852a9ab943ba4026b94abd3eda143d8, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 92cd604f74f9643b6a6b520b6fb86462, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0852a9ab943ba4026b94abd3eda143d8, type: 3}
 --- !u!224 &875285936 stripped
@@ -888,8 +904,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 60ca915a11d154d2b8e92d818ce6f701, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4

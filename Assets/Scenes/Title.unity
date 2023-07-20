@@ -234,6 +234,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: PLAY
       objectReference: {fileID: 0}
+    - target: {fileID: 8829683561749038029, guid: 0852a9ab943ba4026b94abd3eda143d8, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 92cd604f74f9643b6a6b520b6fb86462, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0852a9ab943ba4026b94abd3eda143d8, type: 3}
 --- !u!224 &563434494 stripped
@@ -409,7 +413,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 92cd604f74f9643b6a6b520b6fb86462, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
@@ -487,8 +491,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 157c463fe30944002b61bea0afa84dad, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
