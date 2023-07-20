@@ -459,6 +459,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1001257302}
+  - component: {fileID: 1001257301}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -466,6 +467,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1001257301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001257300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e920a041484404715bb7f2a84e0e67d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 8829683561551019266}
+  sceneName: Title
 --- !u!4 &1001257302
 Transform:
   m_ObjectHideFlags: 0
@@ -880,3 +895,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0852a9ab943ba4026b94abd3eda143d8, type: 3}
+--- !u!114 &8829683561551019266 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8829683561346813974, guid: 0852a9ab943ba4026b94abd3eda143d8, type: 3}
+  m_PrefabInstance: {fileID: 8829683561551019265}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
