@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject[] stages;
+
     void Start()
     {
+        foreach (GameObject stage in stages)
+        {
+            stage.SetActive(false);
+        }
 
-    }
+        int randomIndex = Random.Range(0, stages.Length);
 
-    // Update is called once per frame
-    void Update()
-    {
-
+        stages[randomIndex].SetActive(true);
     }
 }
