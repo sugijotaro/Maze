@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class MotionController : MonoBehaviour
 {
-    public Animator animator;
+    private Animator animator;
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Update()
     {
